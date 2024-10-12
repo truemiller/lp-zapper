@@ -7,6 +7,10 @@ Solidity contract to convert native gas tokens into some desired V2 LP token.
 The contract trades the native token for the desired ERC20 token and a wrapped native token (WETH, or i.e. WMATIC). 
 Users can then "zap" their native gas tokens into an LP token via the `zap()` function.
 
+Contract does not define the LP address, instead parses it from the factory.
+
+Dev address recieves fees and leftover tokens.
+
 ## Development
 
 The project is built with Hardhat & Ethers v5.
