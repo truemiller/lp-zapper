@@ -1,0 +1,19 @@
+{
+  "name": "lp-zap-contract",
+  "author": {
+    "name": "Josh Miller",
+    "email": "josh@truemiller.com",
+    "url": "https://truemiller.com"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.1",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "ethers": "^5"
+  }
+}
