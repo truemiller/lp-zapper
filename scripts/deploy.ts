@@ -5,7 +5,7 @@ async function main() {
   const zap = await Zap.deploy();
   await zap.waitForDeployment();
 
-  const zapAddress = await zap.getAddress();
+  const zapAddress = zap.address;
   console.log("Deployment address", zapAddress);
 }
 
