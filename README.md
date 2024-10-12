@@ -30,13 +30,19 @@ pnpm install
 3. Compile the contracts
 
 ```bash
-hardhat compile
+pnpm hardhat compile
 ```
 
 4. Run tests
 
 ```bash
 pnpm test
+```
+
+5. Deploy the contract
+
+```bash
+pnpm deploy
 ```
 
 ## License

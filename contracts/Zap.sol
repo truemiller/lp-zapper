@@ -80,12 +80,12 @@ contract Zap is Ownable, ReentrancyGuard {
 
     function sweep() private {
         // sweep erc20
-        if (erc20.balanceOf(address(this)) > 0)
-            erc20.transfer(dev, erc20.balanceOf(address(this)));
+        if (IERC20(erc20).balanceOf(address(this)) > 0)
+            IERC20(erc20).transfer(dev, IERC20(erc20).balanceOf(address(this)));
 
         // sweep weth
-        if (weth.balanceOf(address(this)) > 0)
-            weth.transfer(dev, weth.balanceOf(address(this)));
+        if (IERC20(weth).balanceOf(address(this)) > 0)
+            IERC20(weth).transfer(dev, IERC20(weth).balanceOf(address(this)));
 
         // sweep native
         if (address(this).balance > 0)
