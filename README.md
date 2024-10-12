@@ -1,6 +1,6 @@
 # LP Zapper
 
-Solidity contract to convert native gas tokens into some desired LP token.
+Solidity contract to convert native gas tokens into some desired V2 LP token.
 
 ## How it works
 
