@@ -1,6 +1,6 @@
 # LP Zapper
 
-Solidity contract to convert native gas tokens into some desired V2 LP token.
+Solidity smart contract that converts native gas token into some desired LP token (Uniswap v2). Sweeps left over funds and/or fees to developer wallet.
 
 ## How it works
 
